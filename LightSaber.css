@@ -1,3 +1,10 @@
+header {
+  position: relative;       /* so you desktop show inside header */
+}
+.news_box_mobile {
+  display: none;            /* so your mobile is hidden by default */
+}
+
 body {
     background-color: #FBFAF0;
     font-family: Arial, Helvetica, sans-serif;
