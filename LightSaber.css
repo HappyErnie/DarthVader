@@ -35,14 +35,14 @@ a:link, :visited, :hover, :active {
 /* --------------- */
 
 /* PROGRESS BAR */
-#myprogress{
+#myprogress {
   width: 300px; /* Length of the bar */
   background: FBFAF0; /* Set to the same as background color */
   margin: auto;
   border-radius: 32px; /* Rounded bar */
 }
 
-#mybar{
+#mybar {
   width: 300px; /* Length of the bar */
   background: red;
   color: transparent; /* Set to transparent to hide the text display */
@@ -50,9 +50,9 @@ a:link, :visited, :hover, :active {
 
   display: inline-block;
   position: absolute; /* IMPT: Stops the bar from moving left */
-  -webkit-transform-origin: bottom left;;
+  /* -webkit-transform-origin: bottom left; */
   transform-origin: bottom left; /* IMPT: Stops bar from expanding from the middle */
-  -webkit-transform: rotate(-82deg); /* Chrome, Safari, Opera */
+  /* -webkit-transform: rotate(-82deg); /* Chrome, Safari, Opera */
   transform: rotate(-82deg);
 
   /*animation: pulsate 1.5s infinite alternate;  
