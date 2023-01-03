@@ -22,7 +22,7 @@ a:link, :visited, :hover, :active {
 }
 .display-area img {
   /* width: 100%; */
-  max-width: 400px;
+  max-width: 380px;
 } 
 .img-container {
   display: inline-block;
@@ -30,25 +30,25 @@ a:link, :visited, :hover, :active {
 }
 .positioning {
   position: absolute;
-  right: 295px; /* Sets the position of the bar */
-  bottom: 178px; /* Sets the position of the bar */
+  right: 223px; /* Sets the position of the bar. Small number moves right. */
+  bottom: 140px; /* 178 Sets the position of the bar. Small number moves down. */
 }
 /* --------------- */
 
 /* PROGRESS BAR */
 #myprogress {
-  width: 300px; /* Length of the bar */
+  width: 230px; /* Length of the bar */
   background: FBFAF0; /* Set to the same as background color */
-  margin: auto;
+  margin: auto; 
   border-radius: 32px; /* Rounded bar */
 }
 
 #mybar {
-  width: 300px; /* Length of the bar */
+  width: 230px; /* Length of the bar */
+  /* height: 10px; Thickness of the bar */
   background: red;
   color: transparent; /* Set to transparent to hide the text display */
-  border-radius: 32px; /* Rounded bar */
-
+  border-radius: 32px; /* 32 Rounded bar */
   display: inline-block;
   position: absolute; /* IMPT: Stops the bar from moving left */
   /* -webkit-transform-origin: bottom left; */
