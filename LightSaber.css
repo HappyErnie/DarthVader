@@ -13,16 +13,16 @@ a:link, :visited, :hover, :active {
   width: 100%; 
   min-width: 230px; 
   float: center;
-  /* position: relative;
+  position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: transparent;
-  text-align: center; */
+  text-align: center;
 }
-.display-area img {
+/* .display-area img {
   max-width: 100%;
-}
+} */
 .img-container {
   display: inline-block;
   position: relative;
