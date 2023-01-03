@@ -9,16 +9,16 @@ a:link, :visited, :hover, :active {
 }
 
 /* IMAGE */
-.img-area {
-  width: 100%;
+.display-area {
+  width: 100%; 
   min-width: 230px; 
-  float: center;
+  /* float: center;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: transparent;
-  text-align: center;
+  text-align: center; */
 }
 .img-area img {
   max-width: 100%;
