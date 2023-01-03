@@ -22,7 +22,8 @@ a:link, :visited, :hover, :active {
 }
 .display-area img {
   /* width: 100%; */
-  max-width: 380px;
+  max-width: 380px; /* Sets the size of the Darth Vader image. */
+  text-align: center;
 } 
 .img-container {
   display: inline-block;
