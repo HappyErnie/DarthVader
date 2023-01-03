@@ -9,9 +9,6 @@ a:link, :visited, :hover, :active {
 }
 
 /* IMAGE */
-img {
-  max-width: 100%;
-}
 .display-area {
   width: 100%; 
   min-width: 230px; 
@@ -23,9 +20,9 @@ img {
   background-color: transparent;
   text-align: center;
 }
-/* .display-area img {
-  max-width: 100%;
-} */
+.display-area img {
+  max-width: 500px;
+} 
 .img-container {
   display: inline-block;
   position: relative;
