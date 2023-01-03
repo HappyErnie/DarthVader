@@ -20,7 +20,7 @@ a:link, :visited, :hover, :active {
   background-color: transparent;
   text-align: center; */
 }
-.img-area img {
+.display-area img {
   max-width: 100%;
 }
 .img-container {
