@@ -9,6 +9,9 @@ a:link, :visited, :hover, :active {
 }
 
 /* IMAGE */
+img {
+  max-width: 100%;
+}
 .display-area {
   width: 100%; 
   min-width: 230px; 
