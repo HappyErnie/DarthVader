@@ -22,7 +22,7 @@ a:link, :visited, :hover, :active {
 }
 .display-area img {
   /* width: 100%; */
-  max-width: 480px;
+  max-width: 400px;
 } 
 .img-container {
   display: inline-block;
