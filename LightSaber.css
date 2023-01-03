@@ -13,8 +13,8 @@ a:link, :visited, :hover, :active {
   width: 100%; 
   min-width: 230px; 
   float: center;
-  /* position: relative;
-  min-height: 1px;
+  position: relative;
+  /* min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: transparent;
