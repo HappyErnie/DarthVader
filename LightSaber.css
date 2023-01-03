@@ -23,7 +23,9 @@ a:link, :visited, :hover, :active {
 .display-area img {
   /* width: 100%; */
   max-width: 380px; /* Sets the size of the Darth Vader image. */
-  text-align: center;
+  width: 100%;
+  margin: auto;
+  display: block;
 } 
 .img-container {
   display: inline-block;
@@ -32,7 +34,7 @@ a:link, :visited, :hover, :active {
 .positioning {
   position: absolute;
   right: 223px; /* Sets the position of the bar. Small number moves right. */
-  bottom: 140px; /* 178 Sets the position of the bar. Small number moves down. */
+  bottom: 135px; /* 178 Sets the position of the bar. Small number moves down. */
 }
 /* --------------- */
 
