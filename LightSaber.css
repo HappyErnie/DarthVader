@@ -21,8 +21,8 @@ a:link, :visited, :hover, :active {
   text-align: center;
 }
 .display-area img {
-  width: 100%;
-  min-width: 230px;
+  /* width: 100%; */
+  max-width: 500px;
 } 
 .img-container {
   display: inline-block;
