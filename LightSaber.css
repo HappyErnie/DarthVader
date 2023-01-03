@@ -25,7 +25,7 @@ a:link, :visited, :hover, :active {
   max-width: 380px; /* Sets the size of the Darth Vader image. */
   width: 100%;
   margin: auto;
-  display: block;
+  display: inline-block;
 } 
 .img-container {
   display: inline-block;
