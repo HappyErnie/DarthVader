@@ -1,11 +1,15 @@
 body {
-    background-color: #FBFAF0;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
+h1 {
+  color: lightgoldenrodyellow;
+}
+
 a:link, :visited, :hover, :active { 
-  text-decoration: none; color: black;
+  text-decoration: none; color: lightgoldenrodyellow;
 }
 
 /* IMAGE */
@@ -21,7 +25,6 @@ a:link, :visited, :hover, :active {
   text-align: center;
 }
 .display-area img {
-  /* width: 100%; */
   max-width: 360px; /* Sets the size of the Darth Vader image. */
   width: 100%;
   margin: auto;
@@ -43,32 +46,28 @@ a:link, :visited, :hover, :active {
   width: 230px; /* Length of the bar */
   background: FBFAF0; /* Set to the same as background color */
   margin: auto; 
-  border-radius: 32px; /* Rounded bar */
 }
 
 #mybar {
   width: 230px; /* Length of the bar */
   height: 10px; /* Thickness of the bar */
-  background: red;
+  background: lightgoldenrodyellow;
   color: transparent; /* Set to transparent to hide the text display */
   border-radius: 32px; /* 32 Rounded bar */
   display: inline-block;
   position: absolute; /* IMPT: Stops the bar from moving left */
-  /* -webkit-transform-origin: bottom left; */
   transform-origin: bottom left; /* IMPT: Stops bar from expanding from the middle */
-  /* -webkit-transform: rotate(-82deg); /* Chrome, Safari, Opera */
   transform: rotate(-82deg);
 
-  /* animation: pulsate 1.5s infinite alternate;  
-  border: 0.2rem solid #fff;
-  border-radius: 2rem;
-  padding: 0.4em;
-  box-shadow: 0 0 .2rem #fff,
-            0 0 .2rem #fff,
-            0 0 2rem red,
-            0 0 0.8rem red,
-            0 0 2.8rem red,
-            inset 0 0 1.3rem red; */
+  /* Glowing neon effect */
+  animation: pulsate 1.5s infinite alternate;
+  border: 0px solid red;
+  box-shadow:  0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem red,
+  0 0 0.8rem red,
+  0 0 2.8rem red,
+  inset 0 0 1.3rem #fff;
 }
 /* --------------- */
 
