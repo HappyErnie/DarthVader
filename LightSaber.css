@@ -22,7 +22,7 @@ a:link, :visited, :hover, :active {
 }
 .display-area img {
   /* width: 100%; */
-  max-width: 380px; /* Sets the size of the Darth Vader image. */
+  max-width: 360px; /* Sets the size of the Darth Vader image. */
   width: 100%;
   margin: auto;
   display: inline-block;
@@ -33,8 +33,8 @@ a:link, :visited, :hover, :active {
 }
 .positioning {
   position: absolute;
-  right: 223px; /* Sets the position of the bar. Small number moves right. */
-  bottom: 135px; /* 178 Sets the position of the bar. Small number moves down. */
+  right: 208px; /* Sets the position of the bar. Small number moves right. */
+  bottom: 128px; /* 178 Sets the position of the bar. Small number moves down. */
 }
 /* --------------- */
 
@@ -48,7 +48,7 @@ a:link, :visited, :hover, :active {
 
 #mybar {
   width: 230px; /* Length of the bar */
-  /* height: 10px; Thickness of the bar */
+  height: 10px; /* Thickness of the bar */
   background: red;
   color: transparent; /* Set to transparent to hide the text display */
   border-radius: 32px; /* 32 Rounded bar */
@@ -59,16 +59,16 @@ a:link, :visited, :hover, :active {
   /* -webkit-transform: rotate(-82deg); /* Chrome, Safari, Opera */
   transform: rotate(-82deg);
 
-  /*animation: pulsate 1.5s infinite alternate;  
+  /* animation: pulsate 1.5s infinite alternate;  
   border: 0.2rem solid #fff;
   border-radius: 2rem;
   padding: 0.4em;
   box-shadow: 0 0 .2rem #fff,
             0 0 .2rem #fff,
-            0 0 2rem #bc13fe,
-            0 0 0.8rem #bc13fe,
-            0 0 2.8rem #bc13fe,
-            inset 0 0 1.3rem #bc13fe; */
+            0 0 2rem red,
+            0 0 0.8rem red,
+            0 0 2.8rem red,
+            inset 0 0 1.3rem red; */
 }
 /* --------------- */
 
