@@ -37,7 +37,7 @@ a:link, :visited, :hover, :active {
 .positioning {
   position: absolute;
   right: 208px; /* Sets the position of the bar. Small number moves right. */
-  bottom: 128px; /* 178 Sets the position of the bar. Small number moves down. */
+  bottom: 128px; /* Sets the position of the bar. Small number moves down. */
 }
 /* --------------- */
 
@@ -53,11 +53,11 @@ a:link, :visited, :hover, :active {
   height: 10px; /* Thickness of the bar */
   background: lightgoldenrodyellow;
   color: transparent; /* Set to transparent to hide the text display */
-  border-radius: 32px; /* 32 Rounded bar */
+  border-radius: 32px; /* Rounded bar */
   display: inline-block;
   position: absolute; /* IMPT: Stops the bar from moving left */
   transform-origin: bottom left; /* IMPT: Stops bar from expanding from the middle */
-  transform: rotate(-82deg);
+  transform: rotate(-85deg); /* Smaller number tilt towards right */
 
   /* Glowing neon effect */
   animation: pulsate 1.5s infinite alternate;
