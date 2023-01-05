@@ -12,7 +12,6 @@ a:link, :visited, :hover, :active {
   text-decoration: none; color: lightgoldenrodyellow;
 }
 
-/* IMAGE */
 .display-area {
   width: 100%; 
   min-width: 230px; 
@@ -25,7 +24,7 @@ a:link, :visited, :hover, :active {
   text-align: center;
 }
 .display-area img {
-  max-width: 360px; /* Sets the size of the Darth Vader image. */
+  max-width: 360px;
   width: 100%;
   margin: auto;
   display: inline-block;
@@ -36,30 +35,27 @@ a:link, :visited, :hover, :active {
 }
 .positioning {
   position: absolute;
-  right: 208px; /* Sets the position of the bar. Small number moves right. */
-  bottom: 128px; /* Sets the position of the bar. Small number moves down. */
+  right: 208px; 
+  bottom: 128px; 
 }
-/* --------------- */
 
-/* PROGRESS BAR */
 #myprogress {
-  width: 230px; /* Length of the bar */
-  background: FBFAF0; /* Set to the same as background color */
+  width: 230px; 
+  background: FBFAF0;
   margin: auto; 
 }
 
 #mybar {
-  width: 230px; /* Length of the bar */
-  height: 10px; /* Thickness of the bar */
+  width: 230px; 
+  height: 10px; 
   background: lightgoldenrodyellow;
-  color: transparent; /* Set to transparent to hide the text display */
-  border-radius: 32px; /* Rounded bar */
+  color: transparent; 
+  border-radius: 32px; 
   display: inline-block;
-  position: absolute; /* IMPT: Stops the bar from moving left */
-  transform-origin: bottom left; /* IMPT: Stops bar from expanding from the middle */
-  transform: rotate(-85deg); /* Smaller number tilt towards right */
+  position: absolute; 
+  transform-origin: bottom left; 
+  transform: rotate(-85deg); 
 
-  /* Glowing neon effect */
   animation: pulsate 1.5s infinite alternate;
   border: 0px solid red;
   box-shadow:  0 0 .2rem #fff,
@@ -69,9 +65,7 @@ a:link, :visited, :hover, :active {
   0 0 2.8rem red,
   inset 0 0 1.3rem #fff;
 }
-/* --------------- */
 
-/* BUTTON */
 #button {
     display: inline-block;
     width: 100px;
@@ -96,4 +90,3 @@ a:link, :visited, :hover, :active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-  /* --------------- */
