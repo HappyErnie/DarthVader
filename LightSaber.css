@@ -66,6 +66,31 @@ a:link, :visited, :hover, :active {
   inset 0 0 1.3rem #fff;
 }
 
+@keyframes pulsate {
+  100% {
+      box-shadow:
+      0 0 4px lightgoldenrodyellow,
+      0 0 11px lightgoldenrodyellow,
+      0 0 19px lightgoldenrodyellow,
+      0 0 40px red,
+      0 0 80px red,
+      0 0 90px red,
+      0 0 100px red,
+      0 0 150px red;
+  }
+  0% {
+    box-shadow:
+    0 0 2px lightgoldenrodyellow,
+    0 0 4px lightgoldenrodyellow,
+    0 0 6px lightgoldenrodyellow,
+    0 0 10px red,
+    0 0 45px red,
+    0 0 55px red,
+    0 0 70px red,
+    0 0 80px red;
+  }
+}
+
 #button {
     display: inline-block;
     width: 100px;
