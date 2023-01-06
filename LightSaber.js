@@ -1,3 +1,9 @@
+window.onload = function() {
+    soundPlayer = new Audio("LightSaber.mp3");
+    soundPlayer.play();
+    soundPlayer.loop = true;
+}
+
 const move = () => {
     var btn = document.getElementById("button"); 
     var elem = document.getElementById("mybar");
@@ -28,9 +34,14 @@ const move = () => {
     if (btn.value == "Off") {
         btn.value = "On";
         btn.innerText = "OFF";
+        soundPlayer = new Audio("LightSaber.mp3");
+        soundPlayer.play();
+        soundPlayer.loop = true;
     } else {
         btn.value = "Off";
         btn.innerText = "ON";
+        soundPlayer.pause();
+        soundPlayer.currentTime = 0;
     }
 
 }
