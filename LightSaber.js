@@ -1,3 +1,9 @@
+window.onload = function() {
+    soundPlayer = new Audio("LightSaber.mp3");
+    soundPlayer.play();
+    soundPlayer.loop = true;
+}
+
 const move = () => {
     var btn = document.getElementById("button"); 
     var elem = document.getElementById("mybar");
