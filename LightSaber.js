@@ -1,7 +1,9 @@
 window.onload = function() {
+    alert("IN 1");
     soundPlayer = new Audio("LightSaber.mp3");
     soundPlayer.play();
     soundPlayer.loop = true;
+    alert("IN 2");
 }
 
 const move = () => {
