@@ -18,7 +18,7 @@ const move = () => {
             } else {
                 widthIncrease++;
                 elem.style.width = widthIncrease + "%";
-                document.getElementById("incvalue").innerHTML = widthIncrease + "%";
+                document.getElementById("barvalue").innerHTML = widthIncrease + "%";
             }
         } else {
             if(widthDecrease <= 0) {
@@ -26,7 +26,7 @@ const move = () => {
             } else {
                 widthDecrease--;
                 elem.style.width = widthDecrease + "%";
-                document.getElementById("incvalue").innerHTML = widthDecrease + "%";
+                document.getElementById("barvalue").innerHTML = widthDecrease + "%";
             }
         }
     }
