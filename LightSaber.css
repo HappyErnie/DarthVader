@@ -39,14 +39,11 @@ a:link, :visited, :hover, :active {
   bottom: 263px; /* Sets the y-axis of the saber. Smaller px moves down. DV=128px, YD=265px, LS=263px */
 }
 
-#myprogress {
+#saberlength {
   width: 210px; /* Sets the length of the saber. DV=230px, YD=LS=210px */
-  background: #FBFAF0;
-  margin: auto; 
 }
 
-#mybar {
-  width: 230px; /* Sets the length of the saber. DV=LS=230px, YD=210px */
+#saberstyle {
   height: 10px; /* Sets the thickness of the saber. DV=LS=10px, YD=15px */
   background: lightgoldenrodyellow;
   color: transparent; 

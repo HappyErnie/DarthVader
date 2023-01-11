@@ -4,7 +4,7 @@ window.onload = function() {
 
 const activate = () => {
     var btn = document.getElementById("button"); 
-    var elem = document.getElementById("mybar");
+    var saber = document.getElementById("saberstyle");
     var widthIncrease = 0;
     var widthDecrease = 100;
     var id = setInterval(frame, 10)
@@ -15,16 +15,16 @@ const activate = () => {
                 clearInterval(id);
             } else {
                 widthIncrease++;
-                elem.style.width = widthIncrease + "%";
-                document.getElementById("barvalue").innerHTML = widthIncrease + "%";
+                saber.style.width = widthIncrease + "%";
+                document.getElementById("sabervalue").innerHTML = widthIncrease + "%";
             }
         } else {
             if(widthDecrease <= 0) {
                 clearInterval(id);
             } else {
                 widthDecrease--;
-                elem.style.width = widthDecrease + "%";
-                document.getElementById("barvalue").innerHTML = widthDecrease + "%";
+                saber.style.width = widthDecrease + "%";
+                document.getElementById("sabervalue").innerHTML = widthDecrease + "%";
             }
         }
     }
