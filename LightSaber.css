@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #09143C; 
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -24,8 +24,8 @@ a:link, :visited, :hover, :active {
   text-align: center;
 }
 .display-area img {
-  max-width: 360px;
-  width: 100%;
+  max-width: 280px; /* Sets the size of the image. DV=YD=360px, LS=280px */
+  width: 80%;
   margin: auto;
   display: inline-block;
 } 
@@ -35,34 +35,34 @@ a:link, :visited, :hover, :active {
 }
 .positioning {
   position: absolute;
-  right: 208px; 
-  bottom: 128px; 
+  right: 126px; /* Sets the x-axis of the saber. Smaller px moves right. DV=208px, YD=114px, LS=126px */
+  bottom: 263px; /* Sets the y-axis of the saber. Smaller px moves down. DV=128px, YD=265px, LS=263px */
 }
 
 #myprogress {
-  width: 230px; 
-  background: FBFAF0;
+  width: 210px; /* Sets the length of the saber. DV=230px, YD=LS=210px */
+  background: #FBFAF0;
   margin: auto; 
 }
 
 #mybar {
-  width: 230px; 
-  height: 10px; 
+  width: 230px; /* Sets the length of the saber. DV=LS=230px, YD=210px */
+  height: 10px; /* Sets the thickness of the saber. DV=LS=10px, YD=15px */
   background: lightgoldenrodyellow;
   color: transparent; 
   border-radius: 32px; 
   display: inline-block;
   position: absolute; 
   transform-origin: bottom left; 
-  transform: rotate(-85deg); 
+  transform: rotate(-126deg); 
 
   animation: pulsate 1.5s infinite alternate;
-  border: 0px solid red;
+  border: 0px solid blue;
   box-shadow:  0 0 .2rem #fff,
   0 0 .2rem #fff,
-  0 0 2rem red,
-  0 0 0.8rem red,
-  0 0 2.8rem red,
+  0 0 2rem blue,
+  0 0 0.8rem blue,
+  0 0 2.8rem blue,
   inset 0 0 1.3rem #fff;
 }
 
@@ -72,22 +72,22 @@ a:link, :visited, :hover, :active {
       0 0 4px lightgoldenrodyellow,
       0 0 11px lightgoldenrodyellow,
       0 0 19px lightgoldenrodyellow,
-      0 0 40px red,
-      0 0 80px red,
-      0 0 90px red,
-      0 0 100px red,
-      0 0 150px red;
+      0 0 40px blue,
+      0 0 80px blue,
+      0 0 90px blue,
+      0 0 100px blue,
+      0 0 150px blue;
   }
   0% {
     box-shadow:
     0 0 2px lightgoldenrodyellow,
     0 0 4px lightgoldenrodyellow,
     0 0 6px lightgoldenrodyellow,
-    0 0 10px red,
-    0 0 45px red,
-    0 0 55px red,
-    0 0 70px red,
-    0 0 80px red;
+    0 0 10px blue,
+    0 0 45px blue,
+    0 0 55px blue,
+    0 0 70px blue,
+    0 0 80px blue;
   }
 }
 
@@ -102,16 +102,16 @@ a:link, :visited, :hover, :active {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: red;
+    background-color: blue;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
   
-  #button:hover {background-color: red}
+  #button:hover {background-color: blue}
   
   #button:active {
-    background-color: red;
+    background-color: blue;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }

@@ -1,8 +1,8 @@
 window.onload = function() {
-    move();
+    activate();
 }
 
-const move = () => {
+const activate = () => {
     var btn = document.getElementById("button"); 
     var elem = document.getElementById("mybar");
     var widthIncrease = 0;
